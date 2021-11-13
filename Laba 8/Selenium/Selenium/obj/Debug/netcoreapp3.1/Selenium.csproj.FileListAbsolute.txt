@@ -1,0 +1,16 @@
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.exe
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.csprojAssemblyReference.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.AssemblyInfoInputs.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.AssemblyInfo.cs
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.deps.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.runtimeconfig.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.runtimeconfig.dev.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Selenium.pdb
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.csproj.CoreCompileInputs.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.csproj.CopyComplete
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.pdb
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Selenium\Selenium\obj\Debug\netcoreapp3.1\Selenium.genruntimeconfig.cache

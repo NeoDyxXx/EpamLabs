@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VJFJTpioZJucC+9HlHUVBjCE1Hu9hOq5x596442mEtDV4QSvlVEEADEHBeas3+WIqnG/ypxVEDc/0ix9qv3upg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krayn\\Documents\\БГТУ\\5_semestr\\EPAM\\Laba 8\\Laba 8\\Laba 8\\Laba 8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krayn\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\krayn\\.nuget\\packages\\selenium.webdriver\\4.0.1\\selenium.webdriver.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

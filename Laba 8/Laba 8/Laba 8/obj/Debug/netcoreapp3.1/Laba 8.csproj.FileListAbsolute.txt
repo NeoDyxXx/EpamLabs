@@ -1,0 +1,16 @@
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.exe
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.csprojAssemblyReference.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.AssemblyInfoInputs.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.AssemblyInfo.cs
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.deps.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.runtimeconfig.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.runtimeconfig.dev.json
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Laba 8.pdb
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.csproj.CoreCompileInputs.cache
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.csproj.CopyComplete
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.dll
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.pdb
+C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\obj\Debug\netcoreapp3.1\Laba 8.genruntimeconfig.cache
