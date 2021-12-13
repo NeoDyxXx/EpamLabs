@@ -27,35 +27,22 @@ namespace AircompanyTests.Tests
            new MilitaryPlane("C-130 Hercules", 650, 5000, 110000, MilitaryType.TRANSPORT)
     };
 
-        private PassengerPlane planeWithMaxPassengerCapacity = new PassengerPlane("Boeing-747", 980, 16100, 70500, 242);
-
         [Test]
         public void HasTypeTransportInListPlanes()
         {
             Airport airport = new Airport(planes);
             List<MilitaryPlane> transportMilitaryPlanes = airport.GetTransportMilitaryPlanes().ToList();
-            Assert.IsTrue(transportMilitaryPlanes.Any(plane => plane.GetPlaneType() == MilitaryType.TRANSPORT));
+            Assert.IsTrue(Aircompany.Utils.PlanesUtils.IsListMilitaryPlaneHaveATransportType(transportMilitaryPlanes));
         }
 
-        // ????????
         [Test]
-        public void MyTest3()
+        public void ListPlanesSortedByMaxLoadCapacity()
         {
             Airport airport = new Airport(planes);
             airport = airport.SortByMaxLoadCapacity();
             List<Plane> planesSortedByMaxLoadCapacity = airport.GetPlanes().ToList();
 
-            bool nextPlaneMaxLoadCapacityIsHigherThanCurrent = true;
-            for (int i = 0; i < planesSortedByMaxLoadCapacity.Count - 1; i++)
-            {
-                Plane currentPlane = planesSortedByMaxLoadCapacity[i];
-                Plane nextPlane = planesSortedByMaxLoadCapacity[i + 1];
-                if (currentPlane.MaxLoadCapacity() > nextPlane.MaxLoadCapacity())
-                {
-                    nextPlaneMaxLoadCapacityIsHigherThanCurrent = false;
-                }
-            }
-            Assert.That(nextPlaneMaxLoadCapacityIsHigherThanCurrent==true);
+            Assert.That(Aircompany.Utils.PlanesUtils.IsListPlanesSortedByMaxLoadCapacity(planesSortedByMaxLoadCapacity));
         }
     }
 }

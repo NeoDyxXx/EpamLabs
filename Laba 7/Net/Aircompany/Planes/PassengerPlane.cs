@@ -6,8 +6,8 @@ namespace Aircompany.Planes
     {
         public int passengersCapacity { get; set; }
 
-        public PassengerPlane(string model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity)
-            :base(model, maxSpeed, maxFlightDistance, maxLoadCapacity)
+        public PassengerPlane(string model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity) 
+            : base(model, maxSpeed, maxFlightDistance, maxLoadCapacity)
         {
             this.passengersCapacity = passengersCapacity;
         }
