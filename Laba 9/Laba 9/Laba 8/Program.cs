@@ -15,16 +15,32 @@ namespace Laba_8
     {
         static void Main(string[] args)
         {
-            if (!Directory.Exists("Screenshots")) Directory.CreateDirectory("Screenshots");
-            if (Directory.GetFiles(@"Screenshots\").Length == 0)
-                File.Create(@"Screenshots\Screen_0.jpg");
-            else
+            List<ItemInHistoryList> testList = new List<ItemInHistoryList>()
             {
-                string fileName = @"Screenshots\Screen_" + System.Convert.ToString(
-                    Directory.GetFiles(@"Screenshots\").Select(item => System.Convert.ToInt32(item.Split('_')[1].Split(".")[0]))
-                    .OrderByDescending(item => item).First() + 1) + ".jpg";
-                File.Create(fileName);
-            }
+                new ItemInHistoryList() {NameOfStock = "AUD/CAD (OTC)", TimeOfTrade = "00:01:00"}
+            };
+
+            WebDriver webDriver = new ChromeDriver(@"C:\Users\krayn\Documents\БГТУ\5_semestr\EPAM\Laba 8\Laba 8\Laba 8\Web Driver\");
+            LoginPage siteOfDemoAccount = new LoginPage(webDriver);
+
+            MainPage mainPage = siteOfDemoAccount
+                                    .TransitionToDemoAccount()
+                                    .HidePopup()
+                                    .ClickToChangeSet()
+                                    .ClickToDemoFromChangeSet()
+                                    .ClickToChooseStockButton()
+                                    .ClickToButtonOfResetSearchToCripto()
+                                    .ClickToChooseStockItem()
+                                    .TypeCostFromTransaction(5)
+                                    .TypeTimeFromTransaction(new DateTime(2021, 1, 1, 0, 1, 0))
+                                    .ClickToPushTransaction();
+            Thread.Sleep(70000);
+
+            List<ItemInHistoryList> resultListFromTest = mainPage.GetItemInHistoryLists();
+            Console.WriteLine(resultListFromTest.EqualListsOfItemInHistoryList(testList));
+
+            webDriver.Close();
+            webDriver.Quit();
         }
     }
 }

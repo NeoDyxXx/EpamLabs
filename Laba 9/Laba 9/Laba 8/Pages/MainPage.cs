@@ -18,14 +18,18 @@ namespace Laba_8.Pages
         By buttonToHidePopup = By.XPath("//a[@class='button button--light button--small modal-byte__demo-button']");
         By changeSet = By.XPath("//input[@class='input-control__input opacity']");
         By demoFromChangeSet = By.XPath("//div[@class='input-control__dropdown']/div[2]");
-        By inputOfCost = By.XPath("/html/body/div/div/div[1]/main/div[2]/div[1]/div/div[2]/div[2]/div/label/input");
-        By inputOfTime = By.XPath("/html/body/div/div/div[1]/main/div[2]/div[1]/div/div[2]/div[1]/label/input");
+        By inputOfCost = By.XPath("//div[@class='input-control-wrapper section-deal--black']/label/input[@class='input-control__input']");
+        By inputOfTime = By.XPath("//div[@class='section-deal__time section-deal__input-black']/label/input[@class='input-control__input opacity']");
         By buttonToPushTransaction = By.XPath("//button[@class='button button--success button--spaced call-btn section-deal__button']");
         By elementsInHistoryList = By.XPath("//div[@class='trades__list']/div[@class='trades-list__item trades-list-item trades-list-item__close']");
         By currectStock = By.XPath("//div[@class='section-deal']/div[@class='section-deal__name']");
         By chooseStockButton = By.XPath("//button[@class='asset-select__button']");
         By chooseStockInput = By.XPath("//input[@class='asset-select__search-input']");
         By listOfChooseStock = By.XPath("//div[@class='assets-table']/div[@class='assets-table__item']");
+        By listOfStockInTabs = By.XPath("//div[@class='tabs__items']/div[@class='tab desktop']");
+        By listOfInputControlDropoutOption = By.XPath("//div[@class='input-control__dropdown']/div[@class='input-control__dropdown-option']");
+        By activeStockInTabList = By.XPath("//div[@class='tabs__items']/div[@class='tab desktop active']");
+        By buttonToResetSearchToCripto = By.XPath("//div[@class='asset-select__search-filters active']/button[@class='asset-select__search-filter '][text()='Криптовалюты']");
 
         public MainPage(WebDriver webDriver)
         {
@@ -144,6 +148,47 @@ namespace Laba_8.Pages
             new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
                     .Until(webDriver => webDriver.FindElements(listOfChooseStock))[0].FindElement(By.ClassName("assets-table__name")).Click();
 
+            return this;
+        }
+
+        public MainPage ClickToElementInTabs()
+        {
+            new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
+                    .Until(webDriver => webDriver.FindElements(listOfStockInTabs)[0]).Click();
+
+            return this;
+        }
+
+        public MainPage ClickToInputTime()
+        {
+            new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
+                    .Until(webDriver => webDriver.FindElements(inputOfTime)[0]).Click();
+            Thread.Sleep(500);
+
+            return this;
+        }
+
+        public MainPage ClickToElementInTimeDropout(int index)
+        {
+            new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
+                    .Until(webDriver => webDriver.FindElements(listOfInputControlDropoutOption)[index]).Click();
+
+            return this;
+        }
+
+        public MainPage ClickToCloseButtonOfCurrectStock()
+        {
+            new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
+                    .Until(webDriver => webDriver.FindElement(activeStockInTabList)).FindElement(By.ClassName("tab__close")).Click();
+
+            return this;
+        }
+
+        public MainPage ClickToButtonOfResetSearchToCripto()
+        {
+            new WebDriverWait(webDriver, TimeSpan.FromSeconds(3))
+                    .Until(webDriver => webDriver.FindElement(buttonToResetSearchToCripto)).Click();
+            
             return this;
         }
     }
